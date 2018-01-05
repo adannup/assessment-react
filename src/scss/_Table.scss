@@ -1,0 +1,35 @@
+.table {
+  border-collapse: collapse;
+  color: $font-color;
+  margin: 40px auto;
+  width: 90%;
+}
+
+.table__cell {
+  padding: 7px $padding-left;
+  vertical-align: middle;
+}
+
+.table__row {
+  border-bottom: 1px solid $border-color;
+
+  &:hover {
+    background: #fafafa;
+  }
+}
+
+.table__header_row {
+  border-top: 1px solid $border-color;
+
+  th {
+    background: #eaeaea52;
+    text-align: left;
+    padding: 12px $padding-left;
+  }
+}
+
+.material-icons {
+  color: #aaa;
+  margin: 0 5px 3px 5px;
+  vertical-align: middle;
+}
